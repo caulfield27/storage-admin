@@ -32,10 +32,6 @@ const PartyInfo = ({ showDrawer, setShowDrawer, partyId }: IAddRequest) => {
 
     const { data: productAll, isLoading, mutate } = useSWR(`${apiUrl.products}`, getProducts);
 
-    useEffect(() => {
-        mutate()
-    }, [])
-
     return (
         <div>
             <Drawer

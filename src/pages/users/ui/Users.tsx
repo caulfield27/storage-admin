@@ -84,7 +84,7 @@ export default function Users() {
           <TableHeaderNewComponent>
             <TableHeaderCellComponent>ID</TableHeaderCellComponent>
             <TableHeaderCell>Имя пользователя</TableHeaderCell>
-            <TableHeaderCell>Email</TableHeaderCell>
+            <TableHeaderCell style={{width: '220px'}}>Email</TableHeaderCell>
             <TableHeaderCell>Телефон</TableHeaderCell>
             <TableHeaderCell>Роль</TableHeaderCell>
             <TableHeaderCell>Дата создания</TableHeaderCell>
